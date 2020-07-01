@@ -606,6 +606,9 @@ body {
   --text-opacity: 1;
   color: #837d87;
   color: rgba(131, 125, 135, var(--text-opacity));
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
 h1,
@@ -6557,11 +6560,15 @@ h6,
 }
 
 .text-xs{
-  font-size: 0.75rem;
+  font-size: .75rem;
 }
 
 .text-sm{
-  font-size: 0.875rem;
+  font-size: .875rem;
+}
+
+.text-tiny{
+  font-size: .875rem;
 }
 
 .text-base{
@@ -6594,6 +6601,10 @@ h6,
 
 .text-6xl{
   font-size: 4rem;
+}
+
+.text-7xl{
+  font-size: 4.3rem;
 }
 
 .leading-3{
@@ -24353,11 +24364,15 @@ h6,
   }
 
   .sm\:text-xs{
-    font-size: 0.75rem;
+    font-size: .75rem;
   }
 
   .sm\:text-sm{
-    font-size: 0.875rem;
+    font-size: .875rem;
+  }
+
+  .sm\:text-tiny{
+    font-size: .875rem;
   }
 
   .sm\:text-base{
@@ -24390,6 +24405,10 @@ h6,
 
   .sm\:text-6xl{
     font-size: 4rem;
+  }
+
+  .sm\:text-7xl{
+    font-size: 4.3rem;
   }
 
   .sm\:leading-3{
@@ -42150,11 +42169,15 @@ h6,
   }
 
   .md\:text-xs{
-    font-size: 0.75rem;
+    font-size: .75rem;
   }
 
   .md\:text-sm{
-    font-size: 0.875rem;
+    font-size: .875rem;
+  }
+
+  .md\:text-tiny{
+    font-size: .875rem;
   }
 
   .md\:text-base{
@@ -42187,6 +42210,10 @@ h6,
 
   .md\:text-6xl{
     font-size: 4rem;
+  }
+
+  .md\:text-7xl{
+    font-size: 4.3rem;
   }
 
   .md\:leading-3{
@@ -59947,11 +59974,15 @@ h6,
   }
 
   .lg\:text-xs{
-    font-size: 0.75rem;
+    font-size: .75rem;
   }
 
   .lg\:text-sm{
-    font-size: 0.875rem;
+    font-size: .875rem;
+  }
+
+  .lg\:text-tiny{
+    font-size: .875rem;
   }
 
   .lg\:text-base{
@@ -59984,6 +60015,10 @@ h6,
 
   .lg\:text-6xl{
     font-size: 4rem;
+  }
+
+  .lg\:text-7xl{
+    font-size: 4.3rem;
   }
 
   .lg\:leading-3{
@@ -77744,11 +77779,15 @@ h6,
   }
 
   .xl\:text-xs{
-    font-size: 0.75rem;
+    font-size: .75rem;
   }
 
   .xl\:text-sm{
-    font-size: 0.875rem;
+    font-size: .875rem;
+  }
+
+  .xl\:text-tiny{
+    font-size: .875rem;
   }
 
   .xl\:text-base{
@@ -77781,6 +77820,10 @@ h6,
 
   .xl\:text-6xl{
     font-size: 4rem;
+  }
+
+  .xl\:text-7xl{
+    font-size: 4.3rem;
   }
 
   .xl\:leading-3{
