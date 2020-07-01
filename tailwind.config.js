@@ -2,15 +2,16 @@ module.exports = {
   purge: [],
   theme: {
     fontFamily: {
-      display: ["Rubik", "sans-serif"],
-      body: ["Rubik", "sans-serif"],
+      display: ["DM Serif Display", "serif"],
+      body: ["Karla", "sans-serif"],
     },
     extend: {
       colors: {
-        "soft-blue": "#5368df",
-        "soft-red": "#fa5757",
-        "grayish-blue": "#9194a1",
-        "dark-blue": "#252b46",
+        "primary-1": "#2d2640",
+        "secondary-1": "#95a9c6",
+        "secondary-2": "#2b272f",
+        "secondary-3": "#837d87",
+        "secondary-4": "#fafafa",
       },
     },
   },
