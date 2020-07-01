@@ -1,5 +1,5 @@
 #navbar {
-  top: 58px;
+  top: 56px;
   background-image: url(../assets/images/bg-pattern-mobile-nav.svg);
   background-position: 100% 87%;
   background-repeat: no-repeat;
@@ -26,5 +26,53 @@
     border-radius: 0;
     transform: translateY(0) scale(1);
     z-index: 1;
+  }
+}
+
+.brand {
+  width: 124px;
+}
+
+.section {
+  position: relative;
+}
+
+.section-hero::before,
+.section-hero::after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.section-hero::before {
+  width: 40%;
+  height: 14%;
+  bottom: 373px;
+  left: 0;
+  background-image: url(../assets/images/bg-pattern-intro-left-mobile.svg);
+}
+
+.section-hero::after {
+  width: 30%;
+  height: 33%;
+  bottom: -155px;
+  right: 0;
+  background-image: url(../assets/images/bg-pattern-intro-right-mobile.svg);
+}
+
+@media (min-width: 768px) {
+  .section-hero::before {
+    width: 14%;
+    height: 81%;
+    bottom: -320px;
+    background-image: url(../assets/images/bg-pattern-intro-left-desktop.svg);
+  }
+  .section-hero::after {
+    width: 30%;
+    height: 83%;
+    right: 0;
+    top: 0;
+    background-image: url(../assets/images/bg-pattern-intro-right-desktop.svg);
   }
 }
