@@ -1,0 +1,30 @@
+#navbar {
+  top: 58px;
+  background-image: url(../assets/images/bg-pattern-mobile-nav.svg);
+  background-position: 100% 87%;
+  background-repeat: no-repeat;
+  background-size: 100% 35%;
+  opacity: 0;
+  transform: translateY(300px) scale(0.6);
+  border-radius: 60px;
+  z-index: -1;
+  transition: opacity 300ms ease-in, transform 300ms ease-out,
+    border-radius 300ms ease;
+}
+
+#navbar.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  border-radius: 0;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  #navbar {
+    background-image: none;
+    opacity: 1;
+    border-radius: 0;
+    transform: translateY(0) scale(1);
+    z-index: 1;
+  }
+}
