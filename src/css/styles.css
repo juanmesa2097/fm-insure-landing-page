@@ -76,3 +76,26 @@
     background-image: url(../assets/images/bg-pattern-intro-right-desktop.svg);
   }
 }
+
+.how-we-work {
+  position: relative;
+}
+
+.how-we-work::after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(../assets/images/bg-pattern-how-we-work-mobile.svg);
+  width: 50%;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+
+@media (min-width: 768px) {
+  .how-we-work::after {
+    width: 40%;
+    background-image: url(../assets/images/bg-pattern-how-we-work-desktop.svg);
+  }
+}
